@@ -1,0 +1,18 @@
+# Secrets
+config/secrets.py
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Jupyter
+.ipynb_checkpoints/

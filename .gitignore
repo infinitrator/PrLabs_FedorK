@@ -1,5 +1,5 @@
 # Secrets
-config/secrets.py
+.config/secrets.py
 
 # IDE
 .vscode/
@@ -16,3 +16,5 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+/config
+/.idea

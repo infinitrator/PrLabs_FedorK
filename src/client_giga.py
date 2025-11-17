@@ -6,7 +6,7 @@
 
 from typing import Optional
 from gigachat import GigaChat
-from config.secrets import CA_BUNDLE_PATH
+# from config.secrets import CA_BUNDLE_PATH
 
 
 def get_gigachat_client(
@@ -38,10 +38,10 @@ def get_gigachat_client(
 
     return GigaChat(
         credentials=credentials,
-        ca_bundle_file=CA_BUNDLE_PATH,
+        # ca_bundle_file=CA_BUNDLE_PATH,
         model=model,
         scope="GIGACHAT_API_B2B",
         verify_ssl_certs=False,
-        temperature=temperature,
-        max_tokens=max_tokens,
+        # temperature=temperature,
+        # max_tokens=max_tokens,
     )
